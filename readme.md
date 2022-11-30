@@ -102,40 +102,33 @@ The drawbacks of Python:
 
 # Q7. 
 
+## 1. Access user's information
+
 The collection and storage of personal information on computers or cloud base system is unavoidable nowadays. From shopping online, applying for an educational course to attending the dentist, consumers provide personal information that is stored one way or the other by institutions, private companies and the government. People who provide this information entrust us with their information and is entitled to have their privacy protected and personal information properly collected, stored and used. In addition to that only information that is needed should be collected and you must take reasonable steps to protect personal information. The responsibility of safeguarding this information often lies with IT professionals that work for these institutions. People’s privacy is protected in NSW by the following laws
 
-The privacy and personal information protection act 1998 and The health records information privacy act 2002.
+> The privacy and personal information protection act 1998 and The health records information privacy act 2002.
 
-And Privacy Act 1988
+> And Privacy Act 1988
 
 These acts help guide IT professionals in proper conduct and act in a ethical manner in safeguarding personal information, however the act appears to be outdated and vague and needs to be rewritten or updated at the very least as information technology has changed drastically in the past 10 years, let alone from 1988. 
 
 
-
-intellectual property, copyright, and acknowledgement
-
+## 2. Intellectual property, copyright.
 
 
 Intellectual property is the property of your mind and exclusive knowledge. If you develop a new product, service, process or idea it belongs to you and is considered your IP (business.gov.au). A large part of IT professional’s work would involve dealing with IP, for example a computer programmer would be creating copyrighted computer program, a graphic designer would produce copyrighted original art. It is important to understand what is considered IP in order to protect your own work, but also equally importantly to ensure that you are not infringing on other’s IP.  IP in Australia is protected by Australian intellectual property laws and IP Australia is the Australian government agency that administers IP rights and legislations (www.ipaustralia.gov.au). In addition to this, it is important to acknowledge any copyrighted material, with permission granted by the copyright holder, that you use in your own work. 
 
 The acts and regulation help IT professionals act in a ethical manner when it comes to IP protection, however the IP laws consist of a myriad of acts and regulations, it can be very confusing and hard to navigate. IP Australia has developed resources to make navigating IP laws easier, however it is still a time and effort consuming exercise. 
 
+---
 
 
-Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches.
+## Access to a user’s personal information 
 
-
-
-Access to a user’s personal information 
-
-
-
-Optus data breach on 22th September 2022. 
-
+### Optus data breach on 22th September 2022. 
 
 
 On 22th September 2022, Optus has fallen victim to a cyber-attack which resulted in the disclosure of their customer’s personal information. Optus customer information including names, dates of birth, email adresses, driver’s licences, medicare cards and passport numbers may have been exposed (austral.gov.au). 
-
 
 
 This is possibly the largest data breach ever to have affected Australia consumers (moulislegal.com). 
@@ -262,6 +255,8 @@ The fourth class is the cooking class. The Robot will receive the order from the
 
  The first problem of this code is it doesn’t have a prompt message to indicate what kind of data you ask user to input (number or string). The code is a temperature  formula which convert from celsius to Fahrenheit. So we can let the user know we need a number like “Please input a number: “. In Python3, the input is always string type, we have to covert it to float. But at the same time we still need to check if user’s input is a valid numeric number or alphabetic and numeric mixed number. That is the second problem of this code, so I create a function to check the input data is valid or not. If it’s a valid number then covert it to float and do the calculation, otherwise return a error message and let user know the input is invalid.
 
+ Here is the code link on github in case the wrong identation from copy and paste code. (https://github.com/Jiezhoue/JieZhou_T1A1.git)
+
 ```py
 def isfloat(num):
     try:
@@ -281,6 +276,8 @@ else:
 
 
  # Q13. 
+
+Here is the code link on github in case the wrong identation from copy and paste code. (https://github.com/Jiezhoue/JieZhou_T1A1.git)
 
 ```py
 arr = [5,22,29,39,19,51,78,96,84]
@@ -324,6 +321,8 @@ if num > 100, exit the main loop and print out the list
 
  # Q15. 
 
+ Here is the code link on github in case the wrong identation from copy and paste code. (https://github.com/Jiezhoue/JieZhou_T1A1.git)
+
 ```py
 def weather(raining, temperature):
     match raining:
@@ -343,6 +342,8 @@ print(weather(True, 34))
 ```
 
 # Q16. 
+
+Here is the code link on github in case the wrong identation from copy and paste code. (https://github.com/Jiezhoue/JieZhou_T1A1.git)
 
 ```py
 coding_skill_list = {
